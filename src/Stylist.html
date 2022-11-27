@@ -1,0 +1,49 @@
+<table id="table">
+  <tbody>
+    <!-- Rows -->
+  <tr>
+
+    <!-- Image Column -->
+    <td id="imageCol">
+      <img id="fountainPen" src="stylus.webp" alt="Itallian">
+    </td>
+ 
+    <!-- Column with the content -->
+    <td id="detailCol">
+      <h2 id="detailTitle">Handmade Stylus Click Pen<br></h2>
+      <p id="priceTag"><strong>PRICE:</strong> $30<br></p>
+      <br>
+      <p>This wonderful stylus was hand made to deliver the
+        smoothest experience<br> while using a hand-held device.
+        <br>Prepare to never need to clean your screens again since your<br>
+        grimy fingers won't be touching that precious glass.
+      <br><br><br> For questions or concerns 
+        don't bother asking. I don't want to deal with people.<br>
+        I hate people.<br>
+        Talking is social interaction which I do not support
+      </p>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+<!-- Button to show link -->
+<button type="button" onclick="displayLink()" class="glow-on-hover">Link</button>
+<!-- Div that holds link -->
+<div id="imgLink" style="display:none">
+<p style="color:white"><Cite>Link:</Cite>https://www.etsy.com/listing/1109871281/handmade-stylus-click-pen?ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=handmade+stylus+pen&ref=sc_gallery-1-1&frs=1&plkey=3e6e945774a5d39b921f90f284abbb6a2c1ef41c%3A1109871281</p>
+<p style="color:white">https://webdeasy.de/en/top-css-buttons-en/</p>
+</div>
+
+<!-- Javascript to hide link until button is pressed -->
+<script>
+function displayLink() {
+    var T = document.getElementById("imgLink");
+    if(T.style.display == "none"){
+      T.style.display = "block";  // <-- Set it to block
+    }
+    else{
+      T.style.display = "none";  // <-- Set it to block
+    }
+}
+</script>
