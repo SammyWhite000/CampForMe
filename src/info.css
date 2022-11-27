@@ -4,15 +4,15 @@ nav{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(8, 71, 16); 
+    background-color:  #C8C372; 
     /*background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);*/
 }
 nav a {
   display: block;
   padding: 8px;
-  background-color:rgb(36, 36, 36); 
+  background-color: #C8C372;; 
   text-decoration: none;
-  color: white;
+  color: black;
   float: left;
   padding: 18px 25px;
 }
@@ -23,8 +23,7 @@ a:hover{
 /* CSS for the whole page */
 body{
     /*background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);*/
-    background-color: rgb(8, 71, 16); 
-
+    background-color: #1E4D2B; 
 }
 /* CSS for Image itself */
 #fountainPen{
@@ -39,8 +38,7 @@ body{
     padding: 3px;
     border-width: 4px;
     border-style: solid;
-    /* border-color: #ff00c8; */
-    background-color: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    border-color: white;
 }
 #imageCol{
     max-height: 50%;
@@ -73,7 +71,7 @@ body{
     font-size: 40px;
 }
 
-/* Yummy Button */
+/* Yummy Button DO NOT MODIFY*/
 .glow-on-hover {
     width: 220px;
     height: 50px;
