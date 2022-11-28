@@ -1,15 +1,17 @@
 /* Naviation */
+#WebpageTitle {
+    background-color: #C8C372;
+}
 nav{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color:  #C8C372; 
+    height: 100%;
     /*background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);*/
 }
 nav a {
-  display: block;
-  padding: 8px;
   background-color: #C8C372;; 
   text-decoration: none;
   color: black;
@@ -30,6 +32,10 @@ body{
 #fountainPen{
     max-width: 100px;
     max-height: auto;
+}
+#hikersImage{
+    max-height: 300px;
+    max-width: auto;
 }
 /* CSS for the Table */
 #demo table{
