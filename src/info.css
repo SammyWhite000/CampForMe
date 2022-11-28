@@ -28,8 +28,8 @@ body{
 }
 /* CSS for Image itself */
 #fountainPen{
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100px;
+    max-height: auto;
 }
 /* CSS for the Table */
 #demo table{
