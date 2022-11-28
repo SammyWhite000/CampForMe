@@ -30,13 +30,18 @@ body{
 }
 /* CSS for Image itself */
 #fountainPen{
-    max-width: 100px;
+    max-width: 200px;
     max-height: auto;
 }
 #hikersImage{
     max-height: 300px;
     max-width: auto;
 }
+#tentPic{
+    max-height: 300px;
+    max-width: auto;
+}
+
 /* CSS for the Table */
 #demo table{
     color: white;
