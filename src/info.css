@@ -24,6 +24,7 @@ a:hover{
 body{
     /*background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);*/
     background-color: #1E4D2B; 
+    background-image: url('Pictures/mountainBackground.webp');
 }
 /* CSS for Image itself */
 #fountainPen{
