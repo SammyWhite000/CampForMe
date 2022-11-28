@@ -2,98 +2,84 @@
     File: product.html
     Creator: Samuel T White
     Created: Friday Apr 15 2022 at 08:50:44 AM
-    For: 
-    Description:
+    For: CIS320 Project
+    Description: AHHHHH
 --->
 <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="info.css">
   </head>
-
-<!-- Nav Bar -->
-<nav>
-  <a href="#" onclick="loadDoc('Fountain.html')">Fountain</a>
-  <a href="#" onclick="loadDoc('Pen.html')">Ballpoint Pen</a>
-  <a href="#" onclick="loadDoc('CampingNecessities.html')">Camping Necessities</a>
-</nav>
-<h1 style="color:white">CampForMe</h1>
+<div id="WebpageTitle">
+  <table>
+    <tbody>
+      <tr>
+        <td>
+          <img id="fountainPen" src="Pictures/fountainPen.jpg" alt="Itallian">
+        </td>
+        <td>
+          <h1 style="color: #1E4D2B;">CampForUs</h1>
+        </td>
+        <td>
+          <!-- Nav Bar -->
+          <nav>
+            <a href="#" onclick="loadDoc('HomePage.html')">Home</a>
+            <a href="#" onclick="loadDoc('AboutUs.html')">About Us</a>
+            <a href="#" onclick="loadDoc('Pen.html')">Ballpoint Pen</a>
+            <a href="#" onclick="loadDoc('Stylist.html')">Stylus</a>
+          </nav>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 <body>
   <!-- Div where content will be loaded in -->
   <div id="demo">
       <table> 
         <tbody>
           <!-- Rows -->
-        <tr>
-
-          <!-- Image Column -->
-          <td id="imageCol">
-            <img id="fountainPen" src="fountainPen.jpg" alt="Itallian">
-          </td>
-
-          <!-- ***** -->
-          <!-- Column with the content -->
+        <tr id="contentArea">
           <td id="detailCol">
-            <h2 id="detailTitle">Handmade Wooden Fountain Pen<br></h2>
-            <p id="priceTag"><strong>PRICE:</strong> $50<br></p>
-            <br>
-            <p> wonderful pen was hand made to deliver the
-              smoothest writing experience.<br> Unlike your
-              typicall, every day pen, this pen was designed with 
-              ease and elegancy behind every stroke.<br> 
-              You won't ever go back to ballpoint again.<br><br><br> For questions or concerns 
-              don't bother asking. I don't want to deal with people.<br>
-              I hate people.<br>
-              Talking is social interaction which I do not support
+            <!-- Image to take up space-->
+            <img id="hikersImage" src="Pictures/hikers.jpg" alt="Itallian">
+            <!-- Column with the content -->
+            <p>
+              CampForMe is a student run website that will give recomendations for camping! <br>
+              This will include camping gear, food recommendations, and great places to camp. <br>
+              <br>
+              In the beginning, we will only focus on places in Colorado, but with enough time we can easily expand to other states.<br>
+              Not only will we give great camping locations, but also great places to go hiking! <br>
+              With more time, there will come more recomendations, but for now you bastards will have to do with what we have. :) 
             </p>
-          </td>
+          </td> 
         </tr>
-        </tbody>
-        </table>
+      </tbody>
+    </table>
       
-    <!-- Button to show link -->
-    <button type="button" onclick="displayLink()" class="glow-on-hover">Link</button>
-    <!-- Div that holds link -->
-    <div id="imgLink" style="display:none">
-      <p style="color:white"><Cite>Link:</Cite>https://www.rockler.com/rockler-classic-elite-fountain-pen-hardware-kit-gold</p>
-      <p style="color:white">https://webdeasy.de/en/top-css-buttons-en/</p>
-    </div>
-
-    <!-- Javascript to hide link until button is pressed -->
     <script>
-      function displayLink() {
-          var T = document.getElementById("imgLink");
-          if(T.style.display == "none"){
-            T.style.display = "block";  // <-- Set it to block
-          }
-          else{
-            T.style.display = "none";  // <-- Set it to block
-          }
+      //Functions to change page
+      function loadDoc(x) {
+        // change page object
+        const xhttp = new XMLHttpRequest();
+        xhttp.onload = function() {
+          document.getElementById("demo").innerHTML = this.responseText;
+        }
+        // Request to get the new page
+        xhttp.open("GET", x, true);
+        // Send request
+        xhttp.send();
       }
     </script>
-  </div> 
-    <script>
-    //Functions to change page
-    function loadDoc(x) {
-      // change page object
-      const xhttp = new XMLHttpRequest();
-      xhttp.onload = function() {
-        document.getElementById("demo").innerHTML = this.responseText;
-      }
-      // Request to get the new page
-      xhttp.open("GET", x, true);
-      // Send request
-      xhttp.send();
-    }
-    </script>
+  </div>
 </body>
   <!-- Footer -->
   <footer>
     <table>
     <tbody>
     <tr>
-    <td>Creator: Sammy White</td>
-    <td id="center">Made for: CS312 CSU Class. Product Not Actually For Sale</td>
+    <td>Creator: Team One</td>
+    <td id="center">Made for: CIS 320 CSU Class. Product Not Actually For Sale</td>
     <td style="float:right">Contact Us: Don't</td>
     </tr>
     </tbody>
