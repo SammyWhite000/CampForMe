@@ -84,6 +84,34 @@ aside h2{
 /* **** SITES PAGE END *** */
 
 /* **** ABOUT PAGE *** */
+#CharliePic{
+    max-width: 400px;
+    max-height: auto;
+}
+#PrestonPic{
+    max-width: 400px;
+    max-height: auto;
+}
+#SammyPic{
+    max-width: 400px;
+    max-height: auto;
+}
+#TannerPic{
+    max-width: 400px;
+    max-height: auto;
+}
+#CiaraPic{
+    max-width: 400px;
+    max-height: auto;
+}
+#JeffPic{
+    max-width: 400px;
+    max-height: auto;
+}
+#JackPic{
+    max-width: 400px;
+    max-height: auto;
+}
 /* **** ABOUT PAGE END *** */
 
 /* **** CAMP NECESSITIES PAGE *** */
