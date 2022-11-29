@@ -1,0 +1,66 @@
+#wrapper{
+    width: 900px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid white;
+    background-color: #1e4d2a;
+    }
+main{
+padding-left: 10px;
+color: white;
+text-align: center;
+border: white;
+
+}
+p{
+    text-align: left;
+}
+header {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+body{
+    background: url(../Pictures/photo-1542273917363-3b1817f69a2d.avif);
+    background-attachment: fixed;
+}
+nav{
+    width: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav p {
+    padding-right: 1em;
+    color: #908170;
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+
+#content{
+    display:flex;
+    padding-top: 5px;
+}
+aside ul li{
+  list-style-type: none;
+  text-align: left;
+  padding-bottom: 10px;
+}
+aside h2{
+    text-align: left;
+    font-size: medium;
+}
+.crew{
+    width: 50%;
+}
+.colorado{
+    width: 60%;
+}
