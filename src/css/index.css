@@ -6,13 +6,12 @@
     margin: auto;
     border: 1px solid white;
     background-color: #1e4d2a;
-    }
+}
 main{
-padding-left: 10px;
-color: white;
-text-align: center;
-border: white;
-
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+    border: white;
 }
 p{
     text-align: left;
