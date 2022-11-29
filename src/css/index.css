@@ -8,6 +8,14 @@
     border: 1px solid white;
     background-color: #1e4d2a;
 }
+#logo{
+    padding: 4px;
+}
+#name{
+    padding-left: 8px;
+    color: #C8C372;
+    font-size: 32px;
+}
 main{
     padding-left: 10px;
     color: white;
